@@ -1,0 +1,96 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/* Slider */
+.slick-slider {
+    position: relative;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent; }
+  
+  .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+    margin-left: -9px;
+    margin-right: -9px; }
+    .slick-list:focus {
+      outline: none; }
+    .slick-list.dragging {
+      cursor: pointer;
+      cursor: hand; }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  
+  .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block; }
+    .slick-track::after {
+      content: "";
+      display: table;
+      clear: both; }
+    .slick-loading .slick-track {
+      visibility: hidden; }
+  
+  .slick-slide {
+    outline: 0;
+    height: 100%;
+    min-height: 1px;
+    float: left;
+    padding-left: 9px;
+    padding-right: 9px;
+    display: none; }
+    .rtl .slick-slide {
+      float: right; }
+    .slick-slide .slick-slide {
+      padding-left: 0px;
+      padding-right: 0px; }
+    .slick-slide.slick-loading img {
+      display: none; }
+    .slick-slide.dragging img {
+      pointer-events: none; }
+    .slick-initialized .slick-slide {
+      display: block; }
+    .slick-loading .slick-slide {
+      visibility: hidden; }
+    .slick-vertical .slick-slide {
+      display: block;
+      height: auto; }
+  
+  .slick-arrow.slick-hidden {
+    display: none; }
+  
+  /*# sourceMappingURL=slick.css.map */
+  

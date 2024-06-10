@@ -1,0 +1,71 @@
+
+@import url("//fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed|Open+Sans");
+@import url('/style/front1.css');
+@import url('/style/front2.css');
+@import url('/style/front3.css');
+@import url('/style/front4.css');
+@import url('/style/front5.css');
+@import url('/style/front6.css');
+@import url('/style/front7.css');
+
+@import url('/style/front8.css');
+@import url('/style/front9.css');
+@import url('/style/front10.css');
+
+@import url('/style/front11.css');
+@import url('/style/front12.css');
+@import url('/style/front13.css');
+
+@import url('/style/front14.css');
+@import url('/style/front15.css');
+@import url('/style/front16.css');
+
+
+@import url('/style/front17.css');
+@import url('/style/front18.css');
+@import url('/style/front19.css');
+
+
+
+@import url('/style/front20.css');
+@import url('/style/front21.css');
+@import url('/style/front22.css');
+
+
+@import url('/style/front23.css');
+@import url('/style/front24.css');
+
+
+      
+
+
+.fancybox-margin {
+    margin-right: 15px;
+}
+
+.blockreassurance_product .item-product .invisible{
+    visibility: visible !important;
+ }
+
+ .paneltool.active .panelbutton > .fa:before
+{
+	content: "\f00d";
+}
+.leo-widget .w-name{
+  display:none;
+}
+
+.slick-slide {
+  max-height:110px;
+}
+
+
+h1 { font-family:Amatic SC; }
+h2 { font-family:Amatic SC; }
+h3 { font-family:Amatic SC; }
+h4 { font-family:Amatic SC; }
+h5 { font-family:Amatic SC; }
+h6 { font-family:Amatic SC; }
+p { font-family:Open Sans Condensed; }
+a { font-family:Open Sans Condensed; }
+span { font-family:Open Sans Condensed; }

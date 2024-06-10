@@ -1,0 +1,919 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#wrapper {
+    padding-top: 0px; }
+  
+  .box-start {
+    padding-top: 18px;
+    padding-bottom: 18px; }
+  
+  .box-banner-sale {
+    margin-bottom: 50px; }
+  
+  .box-product-tabs-home {
+    margin-bottom: 70px; }
+    @media (max-width: 991px) {
+      .box-product-tabs-home {
+        margin-bottom: 30px; } }
+  
+  /*# sourceMappingURL=profile1499450019.css.map */
+  
+  /*
+   * Custom code goes here.
+   * A template should always ship with an empty custom.css
+   */
+  
+  
+   /******CSS GLOBAL*****/
+  #wrapper .breadcrumb .category-name{
+      color:#d5959e !important;
+      }
+      
+      
+      
+      /********GESTION DU HEADER**********/
+      .topnav{
+      padding:5px 0;
+      background:#f1f1f1;
+      }
+  
+      .box-top-header .block p{
+          margin-bottom:0 !important;
+      }
+      
+      .box-top-header{
+      background:#f1f1f1 !important;
+      }
+  
+  .box-bottom-header{
+  background:#d5959e !important;
+  }
+      
+      #wrapper .breadcrumb .category-name{
+      color: #d5959e;
+          font-family: 'Amatic SC';
+          background: #ffffff;
+          padding: 20px;
+      }
+      
+      .block-category #category-description p{
+      color:#484848;
+      }
+      
+      a.nav-link{
+      font-family:'Open Sans Condensed', sans-serif;
+      }
+      
+      .leo-megamenu .dropdown-menu a > .menu-title{
+      font-size:16px;
+      }
+      
+  .category-sub-menu li a{
+          color:#484848;
+      }
+      
+      
+      
+      
+      
+      /**********GESTION DU MENU**********/
+      .leo-megamenu .navbar-nav > li > a{
+      color:#fff
+      }
+      
+      .leo-megamenu .navbar-nav > li.active > a{
+      color:#484848;
+      }
+      
+      .leo-megamenu .navbar-nav > li:hover > a{
+      color:#484848;
+      }
+      
+  .leo-megamenu .navbar-toggler{
+  border:1px solid #fff;
+  color:#fff !important;
+  }
+  
+      
+      
+      
+      
+      
+      
+      /*******GESTION DES SLIDERS*******/
+  
+      
+      .iviewSlider{
+      transform:scale(1) !important;
+      width:auto !important;
+      cursor:pointer;
+      }
+      
+      .iview-directionNav a:hover:before{
+      background:#d5959e;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      /*******GESTION DES FONT********/
+      body{
+      font-family:'Open Sans Condensed', sans-serif;
+      font-weight:100 !important;
+      }
+      
+      .leo-megamenu .navbar-nav > li > a > .menu-title{
+      font-family: 'Amatic SC', cursive;
+      font-size:22px;
+      }
+      
+      .product-tabs-home .nav-tabs .nav-item .nav-link{
+      font-family: 'Amatic SC', cursive;
+      font-size:33px;
+      }
+      
+      .price{
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size:17px;
+      }
+      
+      h2#js-product-list-header{
+      font-family: 'Amatic SC', cursive;
+      font-size:33px;
+      }
+  
+  .titre_caroussel_accueil{
+  font-family: 'Amatic SC', cursive;
+      font-size:56px;
+  color:#333;
+  margin-bottom:30px;
+  }
+      
+  .btn-primary{
+  font-weight:200;
+  }
+  
+      @media (max-width:500px){
+      .product-tabs-home .nav-tabs .nav-item .nav-link{
+      font-size:20px;
+      }
+  
+  .leo-megamenu .navbar-nav > li > a > .menu-title{
+  font-size:22px !important;
+  font-weight:200 !important;
+  }
+      }
+      
+      
+      
+      
+      /*****PAGE ACCUEIL******/
+      .product-tabs-home h4.title_block{
+      display:none;
+      }
+      
+      .section_produits{
+  margin-top:50px;
+  }
+      
+      .product-tabs-home .nav-tabs .nav-item .nav-link.active, .product-tabs-home .nav-tabs .nav-item .nav-link.active:hover, .product-tabs-home .nav-tabs .nav-item .nav-link:hover{
+      color:#d5959e;
+      }
+      
+      .slick-arrows .slick-arrow:hover:before{
+      color:#d5959e;
+      }
+      
+      .product-flags .product-flag{
+      display:none;
+      }
+      
+  .cms_accueil_row{
+  margin-top:40px;
+  margin-bottom:50px;
+  }
+  
+      .cms_accueil_section_titre{
+      padding:20px;
+      margin:50px 3px 20px 3px;
+      background:#d5959e !important;
+      }
+      
+      .cms_accueil_section_titre h2, .cms_accueil_section_titre h3{
+      color:#fff;
+      font-family: 'Amatic SC', cursive;
+      font-size:39px;
+      } 
+  
+      @media (min-width:800px){
+      .cms_accueil_contenu_texte_middle{
+      display:flex;
+      }
+  }
+      
+      @media (max-width:800px){
+      .cms_accueil_contenu_texte_middle{
+      display:block;
+      }
+  
+  .cms_accueil_row{
+  margin-top:0 !important;
+  }
+  .cms_accueil_section_titre{
+  margin:0 3px 20px 3px !important;
+  }
+      }
+  
+  @media(max-width:500px){
+  .cms_accueil_section_titre h3{
+  font-size:31px !important;
+  }
+  }
+      
+      .cms_accueil_column_left{
+      order:1;
+      font-size:16px;
+      font-family:'Open Sans Condensed', sans-serif;
+      font-weight:300;
+      padding:30px;
+      background:#f7f7f7;
+      color:#484848;
+      }
+      
+      .cms_accueil_column_right{
+      order:2;
+      }
+      
+      .cms_accueil_section_inline{
+      padding:20px;
+      margin:20px 0 20px 0;
+      background:#d5959e !important;
+      }
+      
+      .cms_accueil_section_inline p{
+      color:#fff;
+      font-family:'Open Sans Condensed', sans-serif;
+      font-weight:300;
+      font-size:18px;
+      text-align:center;
+      }
+      
+      .cms_accueil_section_inline h2{
+      color:#fff;
+      font-family:'Amatic SC', cursive;
+      font-weight:300;
+      font-size:33px;
+      text-align:center;
+      }
+      
+      .banner_magasin{
+      margin-top:30px;
+      }
+      
+      .category1 h3 a:hover, .category2 h3 a:hover, .category3 h3 a:hover{
+      color:#fff !important;
+      }
+      
+      .cms_accueil_section_inline a:hover{
+      color:#00193d;
+      }
+      
+      
+      .carroussel_produits_perso{
+      margin:50px 0;
+      }
+      
+      .carroussel_produits_perso h2{
+      font-size:50px;
+      }
+     
+  @media(max-width:1080px){
+      .bloc_reassurance_perso{
+      display:none;
+      }
+  }
+      
+      
+      
+      
+      /******CSS GLOBAL******/
+      .btn .btn-primary .add-to-cart{
+      background:#d5959e;
+      }
+      
+      .product-add-to-cart .add .add-to-cart{
+      background:#d5959e;
+      }
+      
+      .product-add-to-cart .add .add-to-cart:hover{
+      background:#888;
+      }
+      
+      #subcategories{
+      display:none;
+      }
+      
+      .btn{
+      background:#d5959e !important;
+      border:none !important;
+      }
+      
+      .btn:hover{
+      background:#888 !important;
+      border:none !important;
+      }
+      
+      .btn-product{
+      background:#fff !important;
+      }
+      
+      .thumbnail-container .functional-buttons > div.cart .btn-product{
+      background:#d5959e !important;
+      }
+      
+      .thumbnail-container .functional-buttons .btn-product:hover{
+      color:#d5959e;
+      }
+      
+      #block_newsletter .popup-content-newsletter .block-title h3.title_block::before{
+      display:none;
+      }
+  
+  #block_newsletter{
+  margin-bottom:50px !important;
+  margin-top:10px !important;
+  }
+      
+      .after_newsletter_sub{
+      margin-bottom:50px;
+      }
+      
+      .warning_newsletter_text{
+      color:#2d2d2d;
+      font-size:20px;
+      }
+      
+      #newsletter_subscription{
+      margin-top:50px;
+      }
+      
+      @media(max-width:1080px){
+  .hide_ipad_pro{
+  display:none;
+  }
+  }
+  
+      @media(max-width:800px){
+  .hide_tablet{
+  display:none;
+  }
+  }
+      @media(max-width:500px){
+  .hide_mobile{
+  display:none;
+  }
+  }
+      
+      
+      
+      
+      
+      
+      
+      /*********MODULE CATEGORIE************/
+      .category1 h3 a, .category2 h3 a, .category3 h3 a{
+      font-family: 'Amatic SC', cursive;
+      font-size:32px;
+      }
+      
+      .banner-sale .image_description{
+      padding:9px 32px;
+      bottom:166px;
+      opacity:0.9;
+      }
+      
+      .banner-sale.category1 .image_description{
+      left:117px !important;
+      }
+      
+      .banner-sale.category2 .image_description{
+      left:134px !important;
+      }
+      
+      .banner-sale.category3 .image_description{
+      left:125px !important;
+      }
+      
+      .banner-sale:hover .image_description{
+      background:#d5959e;
+      }
+      
+      .category1:hover h3 a, .category2:hover h3 a, .category3:hover h3 a{
+      color:#fff;
+      }
+      
+      @media(max-width:1080px){
+     .category1 h3 a, .category2 h3 a, .category3 h3 a{
+      font-size:47px;
+      }
+  
+    .banner-sale.category1 .image_description{
+      left:67px !important;
+      }
+  
+    .banner-sale.category2 .image_description{
+      left:95px !important;
+      }
+  
+    .banner-sale.category3 .image_description{
+      left:75px !important;
+      }
+  
+      .banner-sale .image_description{
+      bottom:115px;
+      }
+  }
+  
+      @media(max-width:800px){
+     .category1 h3 a, .category2 h3 a, .category3 h3 a{
+      font-size:32px;
+      }
+  
+    .banner-sale.category1 .image_description{
+      left:53px !important;
+      }
+  
+    .banner-sale.category2 .image_description{
+      left:71px !important;
+      }
+  
+    .banner-sale.category3 .image_description{
+      left:61px !important;
+      }
+      .banner-sale .image_description{
+      bottom:91px;
+      }
+  }
+      
+          @media(max-width:500px){
+     .category1 h3 a, .category2 h3 a, .category3 h3 a{
+      font-size:30px;
+      }
+  
+    .banner-sale.category1 .image_description{
+      left:181px !important;
+      }
+  
+    .banner-sale.category2 .image_description{
+      left:191px !important;
+      }
+  
+    .banner-sale.category3 .image_description{
+      left:188px !important;
+      }
+      .banner-sale .image_description{
+      bottom:222px;
+      }
+  }
+      
+  
+          @media(max-width:380px){
+     .category1 h3 a, .category2 h3 a, .category3 h3 a{
+      font-size:30px;
+      }
+  
+    .banner-sale.category1 .image_description{
+      left:110px !important;
+      }
+  
+    .banner-sale.category2 .image_description{
+      left:122px !important;
+      }
+  
+    .banner-sale.category3 .image_description{
+      left:122px !important;
+      }
+      .banner-sale .image_description{
+      bottom:150px;
+      }
+  }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      /********MODULE REASSURANCE*********/
+      .bloc_reassurance img{
+      margin-bottom:30px;
+      }
+      
+      .bloc_reassurance h3{
+      font-family: 'Amatic SC', cursive;
+      font-size:29px;
+      }
+      
+      .bloc_reassurance p{
+      font-family: 'Amatic SC', cursive;
+      font-size:27px;
+      color:#484848;
+      }
+      
+      .bloc_reassurance:hover h3{
+      letter-spacing:2.5px;
+      transition-duration:0.5s;
+      }
+      
+      .bloc_reassurance .ApImage img{
+      padding:20px 70px 0 70px;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      /********FOOTER*******/
+      .footer-center img.logo{
+      width:75%;
+      }
+      
+      .footer-container .block .title_block a{
+      font-family: 'Amatic SC', cursive;
+      color:#484848;
+      font-size:34px;
+      }
+      
+      .footer-container .block .title_block a:hover{
+      color:#484848;
+      }
+      
+      .footer-container{
+      background:#fff !important;
+      }
+      
+      .footer-container .block .title_block{
+      font-family: 'Amatic SC', cursive;
+      color:#484848;
+      font-size:34px;
+      }
+      
+      .footer-container .block{
+      margin-bottom:0 !important;
+      }
+      
+      #footer .block_content h4 a{
+      font-family: 'Amatic SC', cursive;
+      color:#484848;
+      font-size:34px;
+      }
+      
+      #footer .block_content h4 {
+      font-family: 'Amatic SC', cursive;
+      color:#484848;
+      font-size:34px;
+      }
+      
+      h4.block-contact-title.title_block a{
+      font-size:34px !important;
+      }
+      
+      .footer-center{
+      background:url(/img/cms/bg_footer.jpg)center center no-repeat;
+      }
+      
+      .footer-bottom{
+      background:#d5959e;
+      }
+      
+      .box-footer-bottom{
+      background:#d5959e !important;
+      }
+      
+      .footer-bottom .copyright{
+      color:#fff;
+  padding:10px 0;
+  text-align:center;
+      }
+      
+      #footer a{
+      font-family: 'Amatic SC', cursive;
+      color:#484848;
+      font-size:21px;
+      }
+      
+      .toggle-footer{
+      font-family: 'Amatic SC', cursive;
+      color:#484848;
+      font-size:17px;
+      }
+      
+      #back-top a{
+      background:#fff;
+      color:#d5959e;
+      }
+      
+      .footer-bottom a, .footer-bottom p{
+      color:#fff !important;
+      font-family:'Open Sans Condensed', sans-serif !important;
+      font-size:16px !important;
+      }
+      
+      .footer-bottom .block.copyright{
+      padding-bottom:25px;
+      }
+      
+      .footer-container .block .title_block:before{
+      content:"";
+      margin-top:10px;
+      height:8px;
+      width:10%;
+      display:block;
+      visibility:visible;
+      background:url(/themes/leo_cool_stuff/assets/img/icon-default.png) top no-repeat;
+      }
+  
+  .box-middle-footer{
+      align-items:start !important;
+  }
+      
+      @media(max-width:1200px){
+      #footer iframe{
+          transform: scale(0.8) translateX(-43px);
+      }
+      }
+      
+      @media (max-width:1024px){
+      #footer iframe{
+          transform: scale(0.6) translateX(-123px);
+      }
+      }
+      
+      @media (max-width:800px){
+      #footer .logo{
+      display:none;
+      }
+      
+      #footer{
+      padding-bottom:0;
+      }
+      
+      #footer iframe{
+      transform: scale(0.7) translateX(-73px);
+      }
+      }
+      
+      @media (max-width:500px){
+      #footer iframe{
+      transform:scale(1) translateX(0px);
+      margin-top:30px;
+      }
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      /********PAGE PRODUIT*********/
+      .product-additional-info{
+      display:none;
+      }
+      
+      .product-prices .current-price{
+      color:#d5959e;
+      font-family:'Open Sans Condensed', sans-serif;
+      }
+      
+      .description-short{
+          border-bottom: 1px solid #d5959e;
+      }
+      
+      .product-detail-name{
+      font-family: 'Amatic SC', cursive;
+      font-size: 49px;
+      color: #d5959e;
+      }
+      
+      .product-detail-name:after{
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background: #d5959e;
+          top: 100%;
+          left: 0;
+      }
+      
+      .description-short span{
+      font-size:17px !important;
+      }
+      
+      .product-tabs.tabs .nav-tabs{
+      border-top:0px;
+      }
+      
+      .product-tabs.tabs .tab-content{
+      border-bottom:0px;
+      }
+      
+      .product-tabs.tabs .nav-tabs{
+      font-family: 'Amatic SC', cursive;
+      color:#484848;
+      font-size:26px;
+      }
+      
+      .product-tabs.tabs .nav-tabs .nav-link.active, .product-tabs.tabs .nav-tabs .nav-link{
+      font-size: 24px;
+      }
+      
+      #leo_product_reviews_block_extra .reviews_advices li a:hover{
+      color:#d5959e;
+      }
+      
+      #product h4.title-info-product{
+      font-family: 'Amatic SC', cursive;
+      color:#484848;
+      font-size:30px;
+      }
+      
+      #product .product-description{
+          color: #484848;
+      }
+      
+      .tax-shipping-delivery-label{
+      display:none;
+      }
+      
+      .btn.btn-touchspin.js-touchspin.bootstrap-touchspin-up, .btn.btn-touchspin.js-touchspin.bootstrap-touchspin-down{
+      background:#fff !important;
+      }
+      
+      #product .more-info-product #description{
+      display:none;
+      }
+      
+      
+      #product #search_filters .facet{
+      width:20%;
+      display:inline-block;
+      }
+      
+      
+      
+      
+      /*******CMS*******/
+      .content_cms_1, .content_cms_3{
+          background: #f7f7f7;
+          padding: 40px;
+          color: #484848;
+      }
+      
+      .content_cms_1 p, .content_cms_3 p{
+      font-size:16px;
+      }
+      
+       .content_cms_2 p{
+      color:#484848;
+      font-size:16px;
+      }
+      
+      .content_cms_2{
+          background: #fff;
+          padding: 40px;
+  border:2px solid #d5959e;
+      }
+  
+  #cms .page-header h1{
+  font-size:35px;
+  text-align:center;
+  }
+     
+  #cms .gformcms_form form{
+  margin-top:20px;
+  border:2px solid #d5959e;
+  padding:30px;
+  }
+      
+  #cms .form-group.capcha_box label{
+  display:none;
+  }
+  
+  #cms .gformcms_action button span{
+  color:#fff !important;
+  }
+      
+      
+      /******FACETTE******/
+      #left-column .dropdown-menu a.select-list{
+      display:block;
+      padding:2px 10px 2px 10px;
+      }
+      
+      #search_filters .clear-all-wrapper .js-search-filters-clear-all{
+      color:#fff;
+      }
+      
+      .sidebar .block .title_block{
+      font-family:'Amatic SC', sans-serif;
+      font-size:30px;
+      }
+      
+      .sidebar .block{
+      border:2px solid #d5959e;
+      }
+      
+      #search_filters .facet .facet-title{
+      font-size:20px;
+      }
+      
+      .active_filters{
+      background:#d5959e;
+      }
+      
+      .h6.active-filter-title{
+      color:#fff;
+      }
+      
+      
+  /******PANIER FLOTTANT******/
+  .leo-fly-cart-icon-wrapper .leo-fly-cart-icon{
+  background:#d5959e;
+  }
+  
+  .leo-fly-cart-icon-wrapper .leo-fly-cart-total{
+  border-color:#d5959e;
+  }
+  
+  
+  /****LISTE PRODUIT EN PAGE ACCUEIL*****/
+  #index .product_list h3.product-title{
+  font-family:'Open Sans Condensed', sans-serif !important; 
+  }
+  
+  /*****AVIS***/
+  #criterions_list .cancel a{
+  display:none;
+  }
+  
+  div.star.star_on:before, div.star.star_hover:before{
+  color:#d5959e;
+  }
+  
+  .leo-modal-review .btn{
+  font-weight:500;
+  }
+  
+  .reviews_advices a.open-review-form{
+  font-size:17px;
+  }
+  
+  
+  /**PAYPAL 4X**/
+  #cart .paypal-buttons{
+  display:none !important;
+  }
